@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="103.346" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="106.955" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="webdriver.chrome.driver" value="C:\Users\A\Downloads\chromedriver-win64 (1)\chromedriver-win64\chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\A\AppData\Local\Temp\surefire4414489822760129669\surefirebooter-20250626103726947_3.jar C:\Users\A\AppData\Local\Temp\surefire4414489822760129669 2025-06-26T10-37-26_745-jvmRun1 surefire-20250626103726947_1tmp surefire_0-20250626103726947_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\A\AppData\Local\Temp\surefire5098196147654004721\surefirebooter-20250626185419837_3.jar C:\Users\A\AppData\Local\Temp\surefire5098196147654004721 2025-06-26T18-54-19_608-jvmRun1 surefire-20250626185419837_1tmp surefire_0-20250626185419837_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\A\eclipse-workspace\SeleniumFramework\target\test-classes;C:\Users\A\eclipse-workspace\SeleniumFramework\target\classes;C:\Users\A\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\A\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\A\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\A\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\A\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\A\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\A\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\A\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\A\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\A\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\A\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\A\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\A\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\A\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\A\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\A\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\A\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\A\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\A\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\A\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\A\.m2\repository\org\apache\poi\poi\5.4.1\poi-5.4.1.jar;C:\Users\A\.m2\repository\commons-codec\commons-codec\1.18.0\commons-codec-1.18.0.jar;C:\Users\A\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\A\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\A\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar;C:\Users\A\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\A\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\A\.m2\repository\org\apache\poi\poi-ooxml\5.4.1\poi-ooxml-5.4.1.jar;C:\Users\A\.m2\repository\org\apache\poi\poi-ooxml-lite\5.4.1\poi-ooxml-lite-5.4.1.jar;C:\Users\A\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\A\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\A\.m2\repository\org\apache\commons\commons-lang3\3.16.0\commons-lang3-3.16.0.jar;C:\Users\A\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\A\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\A\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\A\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\A\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\A\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\A\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\A\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\A\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\A\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\A\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\A\AppData\Local\Temp\surefire4414489822760129669\surefirebooter-20250626103726947_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\A\AppData\Local\Temp\surefire5098196147654004721\surefirebooter-20250626185419837_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.7+8-LTS-245"/>
@@ -51,7 +51,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\A\Downloads\jdk-22_windows-x64_bin\jdk-22.0.1\bin;C:\Users\A\Downloads\apache-maven-3.9.8-bin\apache-maven-3.9.8\bin;C:\Program Files\Java\jdk-17\bin;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-21\bin;C:\Program Files\Git\cmd;C:\Users\A\Downloads\apache-maven-3.9.9\bin;C:\Program Files\Java\jdk-21\bin;C:\Program Files\Java\jdk-21\bin;C:\Users\A\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-17\bin;C:\Users\A\AppData\Roaming\npm;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\A\Downloads\apache-maven-3.9.9/bin;C:\Program Files\Java\jdk-21/bin;C:\Program Files\Java\jdk-21/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\A\Downloads\jdk-22_windows-x64_bin\jdk-22.0.1\bin;C:\Users\A\Downloads\apache-maven-3.9.8-bin\apache-maven-3.9.8\bin;C:\Program Files\Java\jdk-17\bin;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-21\bin;C:\Program Files\Git\cmd;C:\Users\A\Downloads\apache-maven-3.9.9\bin;C:\Program Files\Java\jdk-21\bin;C:\Program Files\Java\jdk-21\bin;C:\Users\A\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-17\bin;C:\Users\A\AppData\Roaming\npm;;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="stderr.encoding" value="Cp1252"/>
     <property name="java.vendor" value="Oracle Corporation"/>
@@ -59,58 +59,58 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="loginTest" classname="com.crm.qa.testcases.LoginPageTest" time="5.424">
+  <testcase name="loginTest" classname="com.crm.qa.testcases.LoginPageTest" time="6.655">
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-Starting ChromeDriver 136.0.7103.48 (8d621d9143e4526d70d688abf40651c149908708-refs/branch-heads/7103@{#1422}) on port 64593
+Starting ChromeDriver 136.0.7103.48 (8d621d9143e4526d70d688abf40651c149908708-refs/branch-heads/7103@{#1422}) on port 16628
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 64593.
-[1750914450.039][WARNING]: This version of ChromeDriver has not been tested with Chrome version 137.
-Jun 26, 2025 10:37:30 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 16628.
+[1750944266.022][WARNING]: This version of ChromeDriver has not been tested with Chrome version 137.
+Jun 26, 2025 6:54:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="AdminOnClickTest" classname="com.crm.qa.testcases.HomePageTest" time="4.093">
-    <system-err><![CDATA[Starting ChromeDriver 136.0.7103.48 (8d621d9143e4526d70d688abf40651c149908708-refs/branch-heads/7103@{#1422}) on port 54747
+  <testcase name="AdminOnClickTest" classname="com.crm.qa.testcases.HomePageTest" time="10.724">
+    <system-err><![CDATA[Starting ChromeDriver 136.0.7103.48 (8d621d9143e4526d70d688abf40651c149908708-refs/branch-heads/7103@{#1422}) on port 42737
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 54747.
-[1750914467.803][WARNING]: This version of ChromeDriver has not been tested with Chrome version 137.
-Jun 26, 2025 10:37:47 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 42737.
+[1750944279.759][WARNING]: This version of ChromeDriver has not been tested with Chrome version 137.
+Jun 26, 2025 6:54:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="PimOnClick[Rahul, KL, King](1)" classname="com.crm.qa.testcases.PimPageTest" time="6.696">
-    <system-out><![CDATA[2025-06-26T05:08:03.357027200Z main ERROR Log4j API could not find a logging provider.
+  <testcase name="PimOnClick[Rahul, KL, King](1)" classname="com.crm.qa.testcases.PimPageTest" time="6.968">
+    <system-out><![CDATA[2025-06-26T13:25:00.390523800Z main ERROR Log4j API could not find a logging provider.
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 136.0.7103.48 (8d621d9143e4526d70d688abf40651c149908708-refs/branch-heads/7103@{#1422}) on port 15630
+    <system-err><![CDATA[Starting ChromeDriver 136.0.7103.48 (8d621d9143e4526d70d688abf40651c149908708-refs/branch-heads/7103@{#1422}) on port 46276
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 15630.
-[1750914485.131][WARNING]: This version of ChromeDriver has not been tested with Chrome version 137.
-Jun 26, 2025 10:38:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 46276.
+[1750944302.543][WARNING]: This version of ChromeDriver has not been tested with Chrome version 137.
+Jun 26, 2025 6:55:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="PimOnClick[Naga, Kalyan, Peter](2)" classname="com.crm.qa.testcases.PimPageTest" time="7.612">
-    <system-err><![CDATA[Starting ChromeDriver 136.0.7103.48 (8d621d9143e4526d70d688abf40651c149908708-refs/branch-heads/7103@{#1422}) on port 29660
+  <testcase name="PimOnClick[Naga, Kalyan, Peter](2)" classname="com.crm.qa.testcases.PimPageTest" time="6.557">
+    <system-err><![CDATA[Starting ChromeDriver 136.0.7103.48 (8d621d9143e4526d70d688abf40651c149908708-refs/branch-heads/7103@{#1422}) on port 6034
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 29660.
-[1750914504.569][WARNING]: This version of ChromeDriver has not been tested with Chrome version 137.
-Jun 26, 2025 10:38:24 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 6034.
+[1750944330.170][WARNING]: This version of ChromeDriver has not been tested with Chrome version 137.
+Jun 26, 2025 6:55:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="PimOnClick[Nani, Pawan, Kumar](3)" classname="com.crm.qa.testcases.PimPageTest" time="6.676">
-    <system-err><![CDATA[Starting ChromeDriver 136.0.7103.48 (8d621d9143e4526d70d688abf40651c149908708-refs/branch-heads/7103@{#1422}) on port 44848
+  <testcase name="PimOnClick[Nani, Pawan, Kumar](3)" classname="com.crm.qa.testcases.PimPageTest" time="6.385">
+    <system-err><![CDATA[Starting ChromeDriver 136.0.7103.48 (8d621d9143e4526d70d688abf40651c149908708-refs/branch-heads/7103@{#1422}) on port 26201
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 44848.
-[1750914529.468][WARNING]: This version of ChromeDriver has not been tested with Chrome version 137.
-Jun 26, 2025 10:38:49 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 26201.
+[1750944350.146][WARNING]: This version of ChromeDriver has not been tested with Chrome version 137.
+Jun 26, 2025 6:55:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>

@@ -1,5 +1,4 @@
 package com.crm.qa.testcases;
-
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
@@ -15,7 +14,7 @@ public class PimPageTest extends TestBase {
 	LoginPage loginpage;
 	HomePage homepage;
 	PimPage pimpage;
-	String sheetName="Sheet1";
+	String sheetName="Sheet1"; //  sheet name in the excel down bottom of the name 
 
 	public PimPageTest() {
 		super();
@@ -29,9 +28,9 @@ public class PimPageTest extends TestBase {
 		pimpage = new PimPage();
 		homepage = new HomePage();
 	}
-	@DataProvider
+	@DataProvider()
 		public Object[][] getOrangeTestData() {
-		Object data [][]=TestUtil.getTestData(sheetName);
+		Object data [][]=TestUtil.getTestData(sheetName); 
 		return data;	
 	}
 	@Test(priority=1, dataProvider="getOrangeTestData")
@@ -39,7 +38,7 @@ public class PimPageTest extends TestBase {
 		homepage.ClickOnPim();
 		homepage.ClickOnPimAdd();
 	//	pimpage.firstName("Elon", "musk", "Tesla"); // this is hard coded means one time below one is data driven approach
-		pimpage.firstName(firstName, middleName, lastName); // you want data which is excel use this coz this is dat hard coded data 
+		pimpage.firstName(firstName, middleName, lastName); // you want data which is excel use this 
 		pimpage.saveButton();
 	}
 	@AfterMethod

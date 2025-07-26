@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RegressionSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="RegressionTests(failed)">
+    <classes>
+      <class name="com.crm.qa.testcases.PimPageTest">
+        <methods>
+          <include name="PimOnClick"/>
+          <include name="tearDown"/>
+          <include name="callUp"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.PimPageTest -->
+      <class name="com.crm.qa.testcases.HomePageTest">
+        <methods>
+          <include name="callUp"/>
+          <include name="AdminOnClickTest"/>
+          <include name="tearDown"/>
+          <include name="verifyHomepageTitle"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.HomePageTest -->
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="tearDown"/>
+          <include name="setUpandCallLoginMethod"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- RegressionTests(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->

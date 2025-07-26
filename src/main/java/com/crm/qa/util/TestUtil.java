@@ -12,14 +12,17 @@ import java.io.IOException;
 public class TestUtil extends TestBase {
 
     public static Object[][] getTestData(String sheetName) {
-        try (FileInputStream file = new FileInputStream("C:\\Users\\A\\eclipse-workspace\\SeleniumFramework\\src\\main\\java\\com\\crm\\qa\\testdata\\ORANGEHRM_TESTDATA.xlsx");
+        try 
+        // Load the Excel file
+        (FileInputStream file = new FileInputStream("C:\\Users\\A\\eclipse-workspace\\SeleniumFramework\\src\\main\\java\\com\\crm\\qa\\testdata\\ORANGEHRM_TESTDATA.xlsx");
+        		// Create workbook from the file
              Workbook workbook = WorkbookFactory.create(file)) {
-
+        	// Get the desired sheet
             Sheet sheet = workbook.getSheet(sheetName);
             if (sheet == null) {
                 throw new RuntimeException("Sheet not found in the Excel file!");
             }
-
+         // Get total rows and columns (skipping header row)
             int rows = sheet.getPhysicalNumberOfRows();
             int cols = sheet.getRow(0).getPhysicalNumberOfCells();
             Object[][] data = new Object[rows - 1][cols];
@@ -28,10 +31,12 @@ public class TestUtil extends TestBase {
             for (int i = 1; i < rows; i++) {
                 for (int j = 0; j < cols; j++) {
                     Cell cell = sheet.getRow(i).getCell(j);
+                    
                     if (cell != null) {
                         data[i - 1][j] = cell.toString();
                     } else {
-                        data[i - 1][j] = "";  // Handle empty cells gracefully
+                        data[i - 1][j] = "";  // Handle empty cells gracefully // Handle blank cells
+
                     }
                 }
             }

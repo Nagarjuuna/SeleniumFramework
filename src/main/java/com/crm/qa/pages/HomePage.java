@@ -1,5 +1,4 @@
 package com.crm.qa.pages;
-
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
@@ -10,17 +9,25 @@ public class HomePage extends TestBase {
  
 	//PageFactory or Object Repository
    @FindBy(xpath="//span[text()='Admin']")
-	WebElement adminLink;
+   private WebElement adminLink;
    
    @FindBy(xpath="//span[text()='PIM']")
-  	WebElement PIMLink;
+   private	WebElement PIMLink;
    
-   @FindBy(xpath="//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div[2]/div[1]/button")
- 	WebElement PIMLinkOnAdd;
+   @FindBy(xpath="//button[@type='button' and @class='oxd-button oxd-button--medium oxd-button--secondary']")
+   private	WebElement PIMLinkOnAdd;
+   
+   @FindBy(xpath="//img[@alt='client brand banner']")
+   private WebElement title;
    
  //Inatializing the PageFactory or page Objects
 	public HomePage() {
 		PageFactory.initElements(driver, this);
+		
+	}
+	public String homepageTitle() throws InterruptedException {
+		Thread.sleep(3000);
+		return driver.getTitle(); //This line gets the title of the current page using Selenium’s WebDriver and sends it back wherever the method is called. but not stored 
 		
 	}
 	public void ClickOnAdmin() throws InterruptedException {

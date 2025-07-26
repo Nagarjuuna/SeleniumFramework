@@ -8,25 +8,25 @@ import com.crm.qa.base.TestBase;
 public class PimPage extends TestBase {
 	
 	 @FindBy(xpath="//input[@name='firstName']")
-	   WebElement firstName;
+	 private WebElement firstName;
 	 
 	 @FindBy(xpath="//input[@name='middleName']")
-	   WebElement middleName;
+	 private  WebElement middleName;
 	 
 	 @FindBy(xpath="//input[@name='lastName']")
-	   WebElement lastName;
+	 private WebElement lastName;
 	 
 	 @FindBy(xpath="//button[@type='submit']")
-	   WebElement saveButton;
+	 private  WebElement saveButton;
 	 
 	 public PimPage() {
 		 PageFactory.initElements(driver, this);
 		 
 	 }
 	 public void firstName(String fn,String mn , String ln) {
-		 firstName.sendKeys(fn); // why we wre not passing input in sendkeys means we need to change data for i give sendKeys("pavan") it always take pavan it never change so we write like this 
-		 middleName.sendKeys(mn);// why we wre not passing input in sendkeys means we need to change data for i give sendKeys("pavan") it always take pavan it never change so we write like this
-		 lastName.sendKeys(ln);// why we wre not passing input in sendkeys means we need to change data for i give sendKeys("pavan") it always take pavan it never change so we write like this
+		 firstName.sendKeys(fn); // why we wre not passing input in sendkeys means we need to change data for give sendKeys("pavan") it always take pavan it never change so we write like this 
+		 middleName.sendKeys(mn);// why we wre not passing input in sendkeys means we need to change data for give sendKeys("pavan") it always take pavan it never change so we write like this
+		 lastName.sendKeys(ln);// why we wre not passing input in sendkeys means we need to change data for give sendKeys("pavan") it always take pavan it never change so we write like this
 		
 	 }
 	 public void saveButton() {

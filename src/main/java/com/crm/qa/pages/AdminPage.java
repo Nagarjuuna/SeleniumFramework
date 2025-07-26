@@ -7,19 +7,19 @@ import com.crm.qa.base.TestBase;
 
 public class AdminPage extends TestBase{
 	 @FindBy(xpath="//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div[2]/div[1]/button/i")
-	   WebElement createUser;
+	 private  WebElement createUser;
 	 
 	 @FindBy(xpath="//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/form/div[1]/div/div[1]/div/div[2]/div/div/div[2]/i")
-	   WebElement clickOnCreateUser;
+	 private  WebElement clickOnCreateUser;
 	 
 	 @FindBy(xpath="//div[@class='oxd-select-dropdown --positon-bottom']//div/span[text()='Admin']")
-	   WebElement clickOnCreateUserAdmin;
+	 private  WebElement clickOnCreateUserAdmin;
 	 
 	 @FindBy(xpath="//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/form/div[1]/div/div[3]/div/div[2]/div/div/div[2]/i")
-	   WebElement clickOnCreateUserEnable;
+	 private  WebElement clickOnCreateUserEnable;
 	 
 	 @FindBy(xpath="//div[@class='oxd-select-dropdown --positon-bottom']//div/span[text()='Enabled']")
-	   WebElement clickOnCreateUserAdminStatus;
+	 private  WebElement clickOnCreateUserAdminStatus;
 	 
 	 
 	 public AdminPage() {
